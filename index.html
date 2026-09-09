@@ -671,7 +671,7 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
     emailjs.init({
-        publicKey: "67hTF5GI1yLHpXIdq"
+        publicKey: "Y9NUTQ0h2CmTerMnZ"
     });
     const contactForm = document.getElementById("contact-form");
     contactForm.addEventListener("submit", function (event) {
@@ -682,8 +682,8 @@
         buttonText.textContent = "Mengirim...";
         submitButton.disabled = true;
         emailjs.sendForm(
-            "service_8bymjoj",
-            "template_df94ebp",
+            "service_89ue0h8",
+            "template_42lbxic",
             contactForm
         )
         .then(function () {
